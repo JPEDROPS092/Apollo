@@ -1,0 +1,39 @@
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Arquivos compilados Python
+*.pyc
+__pycache__/
+
+# Arquivos de ambiente virtual
+venv/
+env/
+
+# Arquivos de build
+build/
+dist/
+
+# Arquivos temporários
+*.tmp
+temp/
+
+# Arquivos de dados sensíveis (exemplo)
+config.json
+.env
+
+# Ignorar tudo em uploads, exceto .gitkeep
+uploads/*
+!uploads/.gitkeep
+
+#Ignora pasta results, mas não o arquivo dentro
+results/
+!results/*
